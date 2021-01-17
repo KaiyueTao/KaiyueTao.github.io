@@ -10,16 +10,17 @@
 
   <div class="profile-wrapper text-center">
     <div id="avatar">
-      <a href="{{ '/' | relative_url }}" alt="avatar" class="mx-auto">
-        {% capture avatar_url %}
-          {%- if site.avatar contains '://' -%}
-            {{ site.avatar }}
-          {%- elsif site.img_cdn != '' and site.img_cdn -%}
-            {{ site.avatar | prepend: site.img_cdn }}
-          {%- else -%}
-            {{ site.avatar | relative_url }}
-          {%- endif -%}
-        {% endcapture %}
+      <a href="{{ site.baseurl }}/" alt="avatar" class="mx-auto">
+        {% assign avatar_url = site.avatar %}
+
+        {% unless avatar_url contains '://' %}
+          {% if site.img_cdn %}
+            {% assign avatar_url = avatar_url | prepend: site.img_cdn %}
+          {% else %}
+            {% assign avatar_url = avatar_url | relative_url %}
+          {% endif %}
+        {% endunless %}
+
         <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
