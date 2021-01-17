@@ -75,7 +75,7 @@ mermaid: true
     **MAP：**最大后验估计，加上Prior即先验概率，因为贝叶斯派认为不存在具体的参数，只能给出一个参数的概率分布，也就是$P(D|\theta)P(\theta)$最大，这个可以结合贝叶斯公式去理。所以当数据集趋向于无穷大的时候，MAP也趋向于MLE（或者$P(\theta)$本就是均匀分布。
     **Bayesian：**贝叶斯估计，评估话语权。
 
-    知乎这篇[MLE、MAP\Bayesian](\https://zhuanlan.zhihu.com/p/72370235) 和[详解MLE、MAP及贝叶斯公式理解](https://zhuanlan.zhihu.com/p/48071601)讲的很好。
+    知乎这篇[MLE、MAP\Bayesian](https://zhuanlan.zhihu.com/p/72370235) 和[详解MLE、MAP及贝叶斯公式理解](https://zhuanlan.zhihu.com/p/48071601)讲的很好。
 
 5. 交叉熵
 
