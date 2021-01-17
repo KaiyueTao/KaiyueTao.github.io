@@ -163,17 +163,6 @@ defaults:
   #         label: Categories
   #         url: /tabs/categories/
   -
-  scope:
-    path: photography
-  values:
-    breadcrumb:
-      -
-        label: Home
-        url: /
-      -
-        label: Photography
-        url: /tabs/photography/
-  -
     scope:
       path: ''
     values:
