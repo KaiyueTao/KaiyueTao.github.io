@@ -96,7 +96,7 @@ available at [Here](https://arxiv.org/abs/1504.08083)
 检测的具体流程如下：
 
 - 输入一张图片以及R个Proposals（文章测试了不同数目的R）。
-- 对每个RoI，forward pass输出class probability，以及一系列（k个class分别）的bounding-box offset，然后用R-CNN中的[non-maximum](/_posts/2019-11-1-R-CNN.md)算法得到最终的bbox。
+- 对每个RoI，forward pass输出class probability，以及一系列（k个class分别）的bounding-box offset，然后用R-CNN中的[non-maximum](/posts/R-CNN.md)算法得到最终的bbox。
 
 ## Result
 
