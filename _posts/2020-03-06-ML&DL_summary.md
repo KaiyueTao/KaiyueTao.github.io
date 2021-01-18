@@ -2,7 +2,7 @@
 title: Deep Learning/Machine Learning概念总结
 layout: post
 author: Kaiyue Tao
-tags: [Leaning, Machine Learning, Deep Learning]
+tags: [Learning, Machine Learning, Deep Learning]
 math: true
 mermaid: true
 ---
