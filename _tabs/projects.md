@@ -20,7 +20,8 @@ Ultimately, I hope to design an auto movie trailer generator based on my work, w
 
 ![](https://tva1.sinaimg.cn/large/008eGmZEly1gmqyiqne4ej30ne0f641f.jpg)
 
-This work was done during my participation in Advanced Medical Image (AMI) Program held by Vascular Imaging Lab at the University of Washington. Please download the summarized abstract (submitted to ISMRM2021) [here](/assets/Exploring%20feature%20space%20of%20MR%20vessel%20images%20with%20limited%20data%20annotations%20through%20metric%20learning%20and%20episodic%20training.pdf).
+This work was done during my participation in Advanced Medical Image (AMI) Program held by Vascular Imaging Lab at the University of Washington. Recently, the work was accepted by ISMRM2021!
+Please download the summarized abstract [here](/assets/Exploring%20feature%20space%20of%20MR%20vessel%20images%20with%20limited%20data%20annotations%20through%20metric%20learning%20and%20episodic%20training.pdf).
 
 ## Intelligent Video-editing Pipeline (at ByteDance)
 
