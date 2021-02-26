@@ -14,7 +14,7 @@ My graduation project, just began it. My goal is to apply GNN to the task and im
 - [UT Egocentric](http://vision.cs.utexas.edu/projects/egocentric_data/UT_Egocentric_Dataset.html)：4 videos, each 3-5 hours, containing a diverse set of events
 - [TV episodes](https://arxiv.org/pdf/1406.5824.pdf): 4 videos, each about 45 minutes long
 
-Ultimately, I hope to design an auto movie trailer generator based on my work, which can generate different trailers from the description of the movie. I will update my progress here!
+Ultimately, I hope to design an auto movie trailer generator based on my work, which can generate different trailers from the description of the movie. I will update my progress [here](https://www.notion.so/Progress-229bc53ab075438ab460d7af5a7da19c).
 
 ## Explore MR images with limited data annotations via Metric Learning and Episodic Training
 
